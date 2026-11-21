@@ -39,3 +39,8 @@ h2:first-child { margin-top: 0; }
 .nota { color: var(--tenue); font-size: .92rem; }
 footer { border-top: 1px solid var(--linea); padding: 22px 16px 32px; text-align: center; color: var(--tenue); font-size: .88rem; }
 footer a { margin: 0 8px; }
+.yt { display: flex; gap: 16px; align-items: center; background: #fff; color: #0f0f0f; border-radius: 14px; padding: 16px 18px; margin: 0 0 28px; }
+.yt strong { font-size: 1.05rem; }
+.yt p { margin: 4px 0 0; font-size: .95rem; line-height: 1.5; }
+.yt a { color: #065fd4; font-weight: 600; }
+.yt svg { flex: none; }
