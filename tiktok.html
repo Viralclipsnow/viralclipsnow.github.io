@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TikTok connection – Viral Clips Now</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="cab">
+  <img src="logo.jpg" alt="Viral Clips Now logo">
+  <h1>TikTok connection</h1>
+</header>
+<main>
+<p id="msg">Authorization received. You can close this page.</p>
+<p>This page is the return address of the internal tool of Viral Clips Now, used only by the channel owner to send drafts of our own Shorts to the owner's TikTok inbox. See our <a href="privacy.html">Privacy Policy</a>.</p>
+</main>
+<script>
+var p=new URLSearchParams(location.search);
+if(p.get('error')){document.getElementById('msg').textContent='Authorization was not completed ('+p.get('error')+').';}
+</script>
+</body>
+</html>
